@@ -11,3 +11,8 @@ def fizz_buzz(number)
 end 
 
 puts "数字を入力"
+
+input = gets.to_i
+
+puts "結果"
+puts fizz_buzz(input)
